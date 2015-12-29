@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="dec28.BookaFlight">
+        <methods>
+          <include name="bookaFlight"/>
+        </methods>
+      </class> <!-- dec28.BookaFlight -->
+      <class name="dec28.SelectAFlight">
+        <methods>
+          <include name="selectaFlight"/>
+        </methods>
+      </class> <!-- dec28.SelectAFlight -->
+      <class name="dec28.FlightConformation">
+        <methods>
+          <include name="flightConformation"/>
+        </methods>
+      </class> <!-- dec28.FlightConformation -->
+      <class name="dec28.Login">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- dec28.Login -->
+      <class name="dec28.FindAFlight">
+        <methods>
+          <include name="findaFlight"/>
+        </methods>
+      </class> <!-- dec28.FindAFlight -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
